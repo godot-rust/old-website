@@ -1,0 +1,27 @@
+# The URL the site will be built for
+base_url = "https://godot-rust.github.io"
+
+title = "godot-rust"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "inspired-github"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+juice_logo_name = "godot-rust"
+juice_logo_path = "godot-ferris.svg"
+juice_extra_menu_front = [
+    { title = "crates.io", link = "https://crates.io/crates/gdnative" },
+    { title = "User Guide", link = "https://godot-rust.github.io/book" },
+    { title = "API Docs", link = "https://docs.rs/gdnative" },
+]
+juice_extra_menu = [
+    { title = "GitHub", link = "https://github.com/godot-rust/godot-rust" },
+]
