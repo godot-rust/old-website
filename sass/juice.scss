@@ -35,9 +35,14 @@ header {
   background-color: var(--primary-color);
   color: black;
   padding: 20px 50px;
+}
+
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -86,6 +91,9 @@ header {
 main {
   display: flex;
   padding: 50px 100px;
+  // Improve readability on wide displays by limiting line length.
+  max-width: 1200px;
+  margin: 0 auto;
 
   .toc {
     max-width: 260px;
@@ -148,6 +156,9 @@ footer {
 @media screen and (max-width: 768px) {
   header {
     padding: 10px 30px;
+  }
+
+  .header-content {
     flex-direction: column;
     align-items: center;
     justify-content: center;

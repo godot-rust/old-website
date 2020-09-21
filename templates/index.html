@@ -19,7 +19,9 @@
 <body>
     {% block header %}
     <header class="box-shadow">
-        {{ macros::render_header() }}
+        <div class="header-content">
+            {{ macros::render_header() }}
+        </div>
     </header>
     {% endblock header %}
 
