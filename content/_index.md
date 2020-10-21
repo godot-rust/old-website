@@ -5,7 +5,7 @@ sort_by = "weight"
 
 The **godot-rust** project provides high-level Rust bindings to the [Godot game engine](http://godotengine.org/).
 
-The latest version on crates.io is [gdnative 0.9.0](https://crates.io/crates/gdnative). Read the release notes [here](@/release-notes/0-9-0.md).
+The latest version on crates.io is [gdnative 0.9.1](https://crates.io/crates/gdnative). Read the release notes [here](@/release-notes/0-9-1.md).
 
 See the list of all releases [here](@/releases.md).
 
@@ -35,7 +35,7 @@ To create a GDNative library using godot-rust with Godot 3.2.3-stable, [install 
 
 ```toml
 [dependencies]
-gdnative = "0.9.0"
+gdnative = "0.9.1"
 
 [lib]
 crate-type = ["cdylib"]
