@@ -4,13 +4,15 @@ description = "Releases"
 weight = 1
 +++
 
-# [0.9.2 - 2021-02-02](@/release-notes/0-9-2.md)
+# [0.9.3 - 2021-02-03](@/release-notes/0-9-3.md)
 
-0.9.2 is an incremental release with improvements in documentation and API completeness. `GodotString` supports more operations, and support is added for a few common patterns.
+0.9.3 is an incremental release with improvements in documentation and API completeness. `GodotString` supports more operations, and support is added for a few common patterns.
 
-This release is made from tag [`0.9.2`](https://github.com/godot-rust/godot-rust/tree/0.9.2), commit [`6d9bc20`](https://github.com/godot-rust/godot-rust/commit/6d9bc20b315e8cafa1717e7bde6e475dbe40d07e).
+The 0.9.2 version is skipped and yanked from crates.io due to an bug that was undetected due to a rustc regression.
 
-Read the full release notes and changelog for this version [here](@/release-notes/0-9-2.md).
+This release is made from tag [`0.9.3`](https://github.com/godot-rust/godot-rust/tree/0.9.3), commit [`574e0f7`](https://github.com/godot-rust/godot-rust/commit/574e0f7bca7fd21738331316746f7bdd2844d44f).
+
+Read the full release notes and changelog for this version [here](@/release-notes/0-9-3.md).
 
 # [0.9.1 - 2020-10-19](@/release-notes/0-9-1.md)
 
