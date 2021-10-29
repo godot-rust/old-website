@@ -1,7 +1,8 @@
 on:
   push:
     branches:
-      - master 
+      - master
+      - bugfix/zola-token
   pull_request:
 jobs:
   build:

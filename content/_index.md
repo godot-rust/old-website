@@ -5,6 +5,8 @@ sort_by = "weight"
 
 The **godot-rust** project provides high-level Rust bindings to the [Godot game engine](http://godotengine.org/).
 
+(SOME TEST)
+
 The latest version on crates.io is [gdnative 0.9.3](https://crates.io/crates/gdnative). Read the release notes [here](@/release-notes/0-9-3.md).
 
 See the list of all releases [here](@/releases.md).
