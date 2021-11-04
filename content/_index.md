@@ -31,7 +31,7 @@ godot-rust supports all platforms where the Rust `std` and GDNative is available
 
 # Installation
 
-To create a GDNative library using godot-rust with Godot 3.2.3-stable, [install `bindgen` dependencies](https://rust-lang.github.io/rust-bindgen/requirements.html) and include the dependency in a `cdylib` crate. To use another version, see the [relevant chapter in the user guide](https://godot-rust.github.io/book/advanced-guides/custom-bindings.html).
+To create a GDNative library using godot-rust with Godot 3.2.3-stable, [install `bindgen` dependencies](https://rust-lang.github.io/rust-bindgen/requirements.html) and include the dependency in a `cdylib` crate. To use another version, see the [relevant chapter in the user guide](https://godot-rust.github.io/book/advanced-guides/custom-godot.html).
 
 ```toml
 [dependencies]
