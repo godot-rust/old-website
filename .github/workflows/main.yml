@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master 
+      - master
   pull_request:
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: 'Checkout'
         uses: actions/checkout@master
-      - name: 'Build only' 
+      - name: 'Build only'
         uses: shalzz/zola-deploy-action@master
         env:
           BUILD_DIR: .
@@ -27,4 +27,4 @@ jobs:
         env:
           PAGES_BRANCH: gh-pages
           BUILD_DIR: .
-          TOKEN: $GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.ZOLA_DEPLOYMENT_PAT }}
