@@ -80,3 +80,11 @@ The [/examples](https://github.com/godot-rust/godot-rust/tree/master/examples) d
 # License
 
 godot-rust is licensed under the [MIT License](https://github.com/godot-rust/godot-rust/tree/master/LICENSE.md).
+
+# Code of Conduct
+
+The godot-rust organization follows the [Rust Code of Conduct][coc].  
+For details and contact persons, please check out the [CoC on GitHub][github-coc].
+
+[coc]: https://www.rust-lang.org/policies/code-of-conduct
+[github-coc]: https://github.com/godot-rust/.github/blob/master/CODE_OF_CONDUCT.md
