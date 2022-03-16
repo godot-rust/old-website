@@ -5,7 +5,8 @@ sort_by = "weight"
 
 The **godot-rust** project provides high-level Rust bindings to the [Godot game engine](http://godotengine.org/).
 
-The latest version on crates.io is [gdnative 0.9.3](https://crates.io/crates/gdnative). Read the release notes [here](@/release-notes/0-9-3.md).
+Check out the current minor version [gdnative 0.10](https://crates.io/crates/gdnative) on crates.io, or visit
+the project page on [GitHub](https://github.com/godot-rust/godot-rust).
 
 See the list of all releases [here](@/releases.md).
 
@@ -31,11 +32,11 @@ godot-rust supports all platforms where the Rust `std` and GDNative is available
 
 # Installation
 
-To create a GDNative library using godot-rust with Godot 3.2.3-stable, [install `bindgen` dependencies](https://rust-lang.github.io/rust-bindgen/requirements.html) and include the dependency in a `cdylib` crate. To use another version, see the [relevant chapter in the user guide](https://godot-rust.github.io/book/advanced-guides/custom-godot.html).
+To create a GDNative library using godot-rust with Godot, [install `bindgen` dependencies][bindgen] and include the dependency in a `cdylib` crate. For detailed workflow, check out [the book][getting-started].
 
 ```toml
 [dependencies]
-gdnative = "0.9.3"
+gdnative = "0.10"
 
 [lib]
 crate-type = ["cdylib"]
@@ -43,11 +44,9 @@ crate-type = ["cdylib"]
 
 # Example
 
-The most general use-case of the bindings will be to interact with Godot using the generated wrapper classes, as well as providing custom functionality by exposing Rust types as *NativeScript*s.
+The most general use case of the bindings will be to write Rust APIs that can be invoked from GDScript (so-called _Native Classes_).
 
-NativeScript is an extension for GDNative that allows a dynamic library to register "script classes" to Godot.
-
-As is tradition, a simple "Hello World" should serve as an introduction. For a full tutorial, check out ["Getting Started" from the user guide](https://godot-rust.github.io/book/getting-started.html)!
+As is tradition, a simple "Hello World" should serve as an introduction. For a full tutorial, check out ["Getting Started" from the user guide][getting-started]!
 
 ```rust
 use gdnative::prelude::*;
@@ -86,5 +85,7 @@ godot-rust is licensed under the [MIT License](https://github.com/godot-rust/god
 The godot-rust organization follows the [Rust Code of Conduct][coc].  
 For details and contact persons, please check out the [CoC on GitHub][github-coc].
 
+[bindgen]: https://rust-lang.github.io/rust-bindgen/requirements.html
+[getting-started]: https://godot-rust.github.io/book/getting-started
 [coc]: https://www.rust-lang.org/policies/code-of-conduct
 [github-coc]: https://github.com/godot-rust/.github/blob/master/CODE_OF_CONDUCT.md

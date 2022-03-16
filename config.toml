@@ -18,9 +18,9 @@ build_search_index = false
 juice_logo_name = "godot-rust"
 juice_logo_path = "godot-ferris.svg"
 juice_extra_menu_front = [
-    { title = "crates.io", link = "https://crates.io/crates/gdnative" },
-    { title = "User Guide", link = "https://godot-rust.github.io/book" },
-    { title = "API Docs", link = "https://docs.rs/gdnative" },
+    { title = "Book", link = "https://godot-rust.github.io/book" },
+    { title = "Stable Docs", link = "https://docs.rs/gdnative" },
+    { title = "Latest Docs", link = "https://godot-rust.github.io/docs" },
 ]
 juice_extra_menu = [
     { title = "GitHub", link = "https://github.com/godot-rust/godot-rust" },

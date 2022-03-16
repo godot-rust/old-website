@@ -4,6 +4,18 @@ description = "Releases"
 weight = 1
 +++
 
+This page gives a broad overview; check the [changelog] for details.
+
+# 0.10.0 - 2022-03-19
+
+After more than a year, version **0.10.0** brings a lot of progress to godot-rust. There are several new quality-of-life features, such as basic `async` and `serde` support, more flexible exporting of Rust symbols to Godot, better CI and doc integration, among many more. The API is now much more user-friendly than at version 0.9, with more consistent naming, flatter module structure and fewer redundancies.
+
+For users coming from godot-rust 0.9, the [migration guide](https://godot-rust.github.io/book/advanced-guides/migrating-0-9.html) helps with updating code to 0.10.
+
+# 0.10.0-rc.0 - 2022-02-21
+
+A release candidate for upcoming the upcoming version 0.10. Allows preliminary testing and last-minute feedback.
+
 # [0.9.3 - 2021-02-03](@/release-notes/0-9-3.md)
 
 0.9.3 is an incremental release with improvements in documentation and API completeness. `GodotString` supports more operations, and support is added for a few common patterns.
@@ -32,4 +44,6 @@ Read the full release notes and changelog for this version [here](@/release-note
 
 # Earlier releases
 
-Release notes are not available for releases before 0.9.0. For the changelog since 0.7.0, see [CHANGELOG.md](https://github.com/godot-rust/godot-rust/blob/master/CHANGELOG.md) in the main repo.
+Release notes are not available for releases before 0.9.0. For the changelog since 0.7.0, see [CHANGELOG.md][changelog] in the main repo.
+
+[changelog]: https://github.com/godot-rust/godot-rust/blob/master/CHANGELOG.md
