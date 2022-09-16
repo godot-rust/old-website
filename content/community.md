@@ -13,7 +13,7 @@ A third option to communicate with Godot devs and user is the [Godot Contributor
 
 # godot-rust
 
-Primary communication between developers of the project happens on the [**godot-rust** Discord server](https://discord.gg/FNudpBD). Developers looking to contribute are encouraged to join this server to discuss changes with maintainers and other contributors.
+Primary communication between developers of the project happens on the [**godot-rust** Discord server](https://discord.gg/aKUCJ8rJsc). Developers looking to contribute are encouraged to join this server to discuss changes with maintainers and other contributors.
 
 To follow development, we maintain the [@GodotRust](https://twitter.com/GodotRust) Twitter account. We share regular progress on the development, occasional anecdotes as well as highlights on projects built with godot-rust.
 
